@@ -18,7 +18,8 @@ const Login = () => {
             <form onSubmit={handleSubmit} className={styles.form}>
                 <input type="email" placeholder='Email' className={styles.input} required />
                 <input type="password" placeholder='Password' className={styles.input} required />
-                <button className={styles.button}>Login</button>
+                <button  type="submit" className={styles.button}>Login</button>
+
             </form>
             {err && <span className={styles.error}>Something went wront!</span>}
             <button onClick={() => signIn("google")}>Login with google</button>

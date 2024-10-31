@@ -12,7 +12,7 @@ const handler = NextAuth({
             clientSecret: process.env.GOOGLE_CLIENT_SECRET
         }),
         CredentialProvider({
-            id: "credrntials",
+            id: "credentials",
             name: "Credentials",
             async authorize(credentials){
                 await connect();
