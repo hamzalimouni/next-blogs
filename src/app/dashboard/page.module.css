@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+
+.posts{
+    flex: 1;
+}
+
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.imgContainer{
+    width: 200px;
+    height: 120px;
+    position: relative;
+}
+
+.img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.delete{
+    background-color: rgb(233, 72, 72);
+    border-radius: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.delete:hover{
+    background-color: rgba(233, 72, 72, 0.769);
+}
+
+.new{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input, .textarea{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 2px solid #BBB;
+    color: #BBB;
+    font-size: 15px;
+}
+
+.button{
+    padding: 12px;
+    border-radius: 6px;
+    background-color: #53c28b;
+    color: #EEE;
+    cursor: pointer;
+    border: none;
+}
+.button:hover{
+    background-color: #3f9f6a;
+}

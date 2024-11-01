@@ -12,7 +12,7 @@ const Category = ({params}) => {
                     <h2 className={styles.title}>Uchiha Itachi</h2>
                     <p className={styles.desc}>
                         Quel est le secret de Itachi ?
-                        Il a été révélé qu'Itachi avait en fait reçu l'ordre de tuer tous les Uchiha par les anciens de Konoha. Ils craignaient qu'un nouveau soulèvement des Uchiha ne se produise s'ils n'agissaient pas, et ont donc ordonné à Itachi de tous les tuer. C'est une chose qu'Itachi ne voulait pas faire, mais il n'avait pas le choix.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorem quia in repellat tenetur praesentium magnam minima, aliquid aspernatur aliquam maxime sapiente iste a similique deleniti nisi impedit. Doloribus, mollitia.
                     </p>
                     <Button title="See More" url="#" />
                 </div>
@@ -30,7 +30,7 @@ const Category = ({params}) => {
                     <h2 className={styles.title}>Uchiha Itachi</h2>
                     <p className={styles.desc}>
                         Quel est le secret de Itachi ?
-                        Il a été révélé qu'Itachi avait en fait reçu l'ordre de tuer tous les Uchiha par les anciens de Konoha. Ils craignaient qu'un nouveau soulèvement des Uchiha ne se produise s'ils n'agissaient pas, et ont donc ordonné à Itachi de tous les tuer. C'est une chose qu'Itachi ne voulait pas faire, mais il n'avait pas le choix.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis reprehenderit soluta. Reiciendis ullam quas consequuntur blanditiis sapiente voluptates officia ea possimus illo doloremque temporibus quaerat, perferendis vel dolor a.
                     </p>
                     <Button title="See More" url="#" />
                 </div>
